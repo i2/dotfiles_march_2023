@@ -1,6 +1,7 @@
 [user]
-	email = 3228126+i2@users.noreply.github.com
 	name = Reza
+	email = 3228126+i2@users.noreply.github.com
+#	email = reza@live.it
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
