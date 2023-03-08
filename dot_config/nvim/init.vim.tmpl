@@ -1,9 +1,11 @@
-#set clipboard=unnamed
+chezmoi:template:line-endings=native
+
+" #set clipboard=unnamed
 
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
-call plug#begin('~/.local/share/nvim/plugged')
+""call plug#begin('~/.local/share/nvim/plugged')
 
 " Simplenote
 " Plug 'https://github.com/simplenote-vim/simplenote.vim.git'
@@ -14,15 +16,15 @@ call plug#begin('~/.local/share/nvim/plugged')
 " Plug 'reedes/vim-pencil'
 
 " fzf
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+""Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+""Plug 'junegunn/fzf.vim'
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+""Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-Plug 'tpope/vim-obsession'
+""Plug 'tpope/vim-obsession'
 
 " Initialize plugin system
-call plug#end()
+""call plug#end()
 
 set clipboard+=unnamedplus
 
